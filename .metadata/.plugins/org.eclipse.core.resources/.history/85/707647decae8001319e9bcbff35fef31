@@ -1,0 +1,13 @@
+package com.godzplay.loops;
+
+public class Application {
+
+	public static void main(String[] args) {
+		int i = 0;
+		System.out.println("Table of 5 using while loop");
+
+		while (i < 100) {
+		}
+	}
+
+}

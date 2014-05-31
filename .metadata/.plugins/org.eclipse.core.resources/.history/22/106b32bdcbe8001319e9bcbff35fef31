@@ -1,0 +1,21 @@
+package com.godzplay.loops;
+
+public class Application {
+
+	public static void main(String[] args) {
+		int i = 0;
+		System.out.println("Table of 5 using while loop");
+		while (i <= 100) {
+			System.out.println(5 * i);
+			i++;
+		}
+
+		/**
+		 * j = j + 1, j++ and j += 1 produce same result
+		 */
+		System.out.println("Table of 15 using for loop");
+		for (int j = 1; j <= 100; j = j += 1) {
+			System.out.println(15 * j);
+		}
+	}
+}
