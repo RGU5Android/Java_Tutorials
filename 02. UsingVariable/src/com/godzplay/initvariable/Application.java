@@ -3,8 +3,8 @@ package com.godzplay.initvariable;
 public class Application {
 	public static void main(String[] args) {
 		/**
-		 * There are total 8 primitive types of variable int short long float
-		 * double char byte - 2^8 (-128 to 127) boolean
+		 * There are total 8 primitive types of variable int, short, long, float,
+		 * double, char, byte - 2^8 (-128 to 127) & boolean
 		 */
 
 		/**
