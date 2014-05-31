@@ -1,0 +1,10 @@
+package com.godzplay.string;
+
+public class Application {
+
+	String mString;
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.godzplay.string;
+
+public class Application {
+
+	public static void main(String[] args) {
+		String mNameString;
+		String mSurNameString;
+		
+	}
+
+}
