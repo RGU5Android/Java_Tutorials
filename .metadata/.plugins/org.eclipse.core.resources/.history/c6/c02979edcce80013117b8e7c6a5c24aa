@@ -1,0 +1,21 @@
+package com.godzplay.conditions;
+
+public class Application {
+
+	public static void main(String[] args) {
+		String mName = "Rahul";
+		int mAge = 25;
+		boolean mGender = true; // True -> male & false -> female
+		
+		if (mGender) {
+			System.out.println("I AM MALE");
+		}else{
+			System.out.println("I AM FEMALE");
+		}
+		
+		if (mName.equalsIgnoreCase("Rahul")) {
+			System.out.println("Yes it's correct");
+		}
+		
+	}
+}

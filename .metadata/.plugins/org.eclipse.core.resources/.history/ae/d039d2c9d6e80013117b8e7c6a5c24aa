@@ -1,0 +1,27 @@
+package com.godzplay.userinput;
+
+import java.util.Scanner;
+
+public class Application {
+
+	public static void main(String[] args) {
+		/**
+		 * We will be using the scanner class the read inputs from user.
+		 */
+		Scanner mScanner = new Scanner(System.in);
+		String mNameString = null;
+		int mAge = 0;
+		char mGender; // M - male, F - female
+		
+		System.out.print("Enter Name: ");
+		mNameString = mScanner.next();
+
+		System.out.print("Enter Age: ");
+		mAge = mScanner.nextInt();
+		
+		System.out.print("Enter Gender: ");
+		mGender = mScanner.next(null);
+		
+		
+	}
+}

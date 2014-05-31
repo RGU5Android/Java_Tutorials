@@ -1,0 +1,15 @@
+package com.godzplay.userinput;
+
+import java.util.Scanner;
+
+public class Application {
+
+	Scanner mScanner ;
+	
+	public static void main(String[] args) {
+		/**
+		 * We will be using the scanner class the read inputs from user.
+		 */
+
+	}
+}

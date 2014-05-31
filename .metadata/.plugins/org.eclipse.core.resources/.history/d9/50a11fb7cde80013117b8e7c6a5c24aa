@@ -1,0 +1,51 @@
+package com.godzplay.conditions;
+
+public class Application {
+
+	public static void main(String[] args) {
+		String mName = "Rahul";
+		int mAge = 25;
+		boolean mGender = true; // True -> male & false -> female
+
+		/**
+		 * Using if-else with int, string and boolean
+		 */
+
+		if (mGender) {
+			System.out.println("I AM MALE");
+		} else {
+			System.out.println("I AM FEMALE");
+		}
+
+		if (mName.equalsIgnoreCase("rahul")) {
+			System.out.println("Yes it's correct");
+		} else if (mName.equals("Priyanka")) {
+			System.out.println("No it's incorrect");
+		}
+
+		if (mAge == 20) {
+			System.out.println("My age is : " + mAge);
+		} else if (mAge >= 30) {
+			System.out.println("M tooo old... :(");
+		} else {
+			System.out.println("My age is : " + mAge);
+		}
+		
+		/**
+		 * Using loops with conditions
+		 */
+
+		/**
+		 * Infinite loop ends when age = 50;
+		 */
+		while (true) {
+			mAge++;
+			if (mAge == 50) {
+				System.out.println("I AM DONE");
+				break;
+			}else{
+				System.out.println("Now my age is : " +mAge);
+			}
+		}
+	}
+}

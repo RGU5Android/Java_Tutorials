@@ -1,0 +1,11 @@
+package com.godzplay.conditions;
+
+public class Application {
+
+	public static void main(String[] args) {
+		String mName = "Rahul";
+		int mAge = 25;
+		boolean mGender = "true";
+		
+	}
+}

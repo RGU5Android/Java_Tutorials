@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;array&apos; in &apos;com.godzplay.arrayuse.Application.main(...)&apos; to &apos;nameArrayString&apos;&#x0A;- Original project: &apos;09. ArrayClass&apos;&#x0A;- Original element: &apos;com.godzplay.arrayuse.Application.main(String[]).array&apos;&#x0A;- Renamed element: &apos;array&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;array&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.godzplay.arrayuse{Application.java[Application~main~\[QString;@array!852!909!859!863!\[QString;!0!false" name="nameArrayString" references="true" stamp="1401555485918" version="1.0"/>
+</session>

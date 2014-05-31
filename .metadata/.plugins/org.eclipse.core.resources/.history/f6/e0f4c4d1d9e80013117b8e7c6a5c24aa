@@ -1,0 +1,52 @@
+package com.godzplay.switchstatement;
+
+import java.util.Scanner;
+
+public class Application {
+	public static void main(String[] args) {
+		Scanner mScanner = new Scanner(System.in);
+		System.out.print("Enter the month number: ");
+		int value = mScanner.nextInt();
+		
+		switch (value) {
+		case 1:
+			System.out.println("January");
+			break;
+		case 2:
+			System.out.println("January");
+			break;
+		case 3:
+			System.out.println("January");
+			break;
+		case 4:
+			System.out.println("January");
+			break;
+		case 5:
+			System.out.println("January");
+			break;
+		case 6:
+			System.out.println("January");
+			break;
+		case 7:
+			System.out.println("January");
+			break;
+		case 8:
+			System.out.println("January");
+			break;
+		case 9:
+			System.out.println("January");
+			break;
+		case 10:
+			System.out.println("January");
+			break;
+		case 11:
+			System.out.println("January");
+			break;
+		case 12:
+			System.out.println("January");
+			break;
+			break;
+		}
+	}
+
+}
