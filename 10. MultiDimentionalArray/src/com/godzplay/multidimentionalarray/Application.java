@@ -7,8 +7,8 @@ public class Application {
 
 		Scanner mScanner = new Scanner(System.in);
 
-		System.out.println("Enter the values for 2D INT Array of size 5x4");
-		int[][] intArray = new int[5][4];
+		System.out.println("Enter the values for 2D INT Array of size 5x3");
+		int[][] intArray = new int[5][3];
 		for (int row = 0; row < intArray.length; row++) {
 			for (int col = 0; col < intArray[row].length; col++) {
 				System.out.println("Enter Int Value for " + row + "x" + col);

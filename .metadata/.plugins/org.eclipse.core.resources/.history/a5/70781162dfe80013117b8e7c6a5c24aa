@@ -1,7 +1,0 @@
-package com.godzplay.arrayuse;
-
-public class Application {
-	public static void main(String[] args) {
-		
-	}
-}
